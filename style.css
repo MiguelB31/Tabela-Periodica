@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Seoge Ui', sans-serif;
+}
+body{
+    background-color: aliceblue;
+}
+header{
+    text-align: center;
+    padding: 5px;
+    color: rgb(20, 20, 20);
+    position: sticky;
+    top: 0;
+}
+table{
+    padding: 15px;
+    margin: auto;
+    width: 99%;
+    height: auto;
+    font-size: 13px;
+}
+.borda{
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.borda:hover{
+    transform: scale(150%);
+}
+.borda_legenda{
+    border-style: dashed;
+    border-width: 3px;
+    border-radius: 10px;
+    border-color: rgb(20, 20, 20);
+}
+td{
+    width: 5%;
+    height: 8vh;
+}
+tr{
+    text-align: center;
+
+}
+.natomico{
+    text-align: left;
+}
+.gasnobre{
+    color: steelblue;
+    background-color: rgb(170, 205, 233);
+}
+.alcalino{
+    color: rgb(240, 138, 43);
+    background-color: rgb(255, 214, 175);
+}
+.terroso{
+    color: rgb(175, 164, 0);
+    background-color: rgb(253, 249, 195);
+}
+.semimetal{
+    color: rgb(59, 59, 145);
+    background-color: rgb(136, 136, 250);
+}
+.ametal{
+    color: rgb(137, 182, 70);
+    background-color: rgb(217, 245, 175);
+}
+.halogenio{
+    color: rgb(14, 131, 204);
+    background-color: rgb(138, 202, 245);
+}
+.outrometal{
+    color: lightslategrey;
+    background-color: rgb(219, 219, 219);
+}
+.transicao{
+    color: rgb(211, 47, 47);
+    background-color: rgb(253, 166, 166);
+}
+.lantanideo{
+    color: purple;
+    background-color: rgb(173, 100, 173);
+}
+.actinideo{
+    color: blueviolet;
+    background-color: rgb(189, 126, 248);
+}
+.legenda{
+    color: rgb(20, 20, 20);
+}
+.ametal_legenda{
+    border-style: solid;
+    border-width: 3px;
+    color: rgb(137, 182, 70);
+    background-color: rgb(217, 245, 175);
+}
+.alcalino_legenda{
+    border-style: solid;
+    border-width: 3px;
+    color: rgb(240, 138, 43);
+    background-color: rgb(255, 214, 175);
+}
+.semimetal_legenda{
+    border-style: solid;
+    border-width: 3px;
+    color: rgb(59, 59, 145);
+    background-color: rgb(136, 136, 250);
+}
+.outrometal_legenda{
+    border-style: solid;
+    border-width: 3px;
+    color: lightslategrey;
+    background-color: rgb(219, 219, 219);
+}
+.lantanideo_legenda{
+    border-style: solid;
+    border-width: 3px;
+    color: purple;
+    background-color: rgb(173, 100, 173);
+}
+.gasnobre_legenda{
+    border-style: solid;
+    border-width: 3px;
+    color: steelblue;
+    background-color: rgb(170, 205, 233);
+}
+.terroso_legenda{
+    border-style: solid;
+    border-width: 3px;
+    color: rgb(175, 164, 0);
+    background-color: rgb(253, 249, 195);
+}
+.halogenio_legenda{
+    border-style: solid;
+    border-width: 3px;
+    color: rgb(14, 131, 204);
+    background-color: rgb(138, 202, 245);
+}
+.transicao_legenda{
+    border-style: solid;
+    border-width: 3px;
+    color: rgb(211, 47, 47);
+    background-color: rgb(253, 166, 166);
+}
+.actinideo_legenda{
+    border-style: solid;
+    border-width: 3px;
+    color: blueviolet;
+    background-color: rgb(189, 126, 248);
+}
